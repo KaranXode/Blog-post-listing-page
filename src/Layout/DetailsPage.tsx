@@ -1,9 +1,5 @@
 import { useEffect, useState } from "react";
-import {
-  HiOutlineArrowRight,
-  HiOutlineClipboardList,
-  HiOutlineUser,
-} from "react-icons/hi";
+import { HiOutlineClipboardList, HiOutlineUser } from "react-icons/hi";
 import { Link, useParams } from "react-router-dom";
 
 type Post = {
@@ -61,8 +57,6 @@ export default function DetailsPage() {
           Go Back Home
         </Link>
       </div>
-     
-
     </>
   ) : (
     <>
